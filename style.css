@@ -1,15 +1,15 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-color: lightblue;
-	/* background: linear-gradient(to right , red,green);*/
+	 background-color: lightblue; 
+	/*background: linear-gradient(to right , red,green);*/
 	text-align: center;
 	font-family: sans-serif;
 }
 
 button{
 	font-size: 30px;
-	margin: 30px;
+	margin: 20px;
 	padding: 25px;
 	cursor: pointer;
 	border: 1px solid white;
@@ -22,4 +22,13 @@ background-color: rgba(255,255,255,.9); */
 }
 .answer{
 	visibility: hidden;
+}
+div{
+    max-width:500px;
+  margin: auto;
+  border: 3px solid ;
+  border-color: rgb(70,70,70);
+ background: rgba(0, 0, 0, 0.3);
+ box-shadow: 10px 10px 5px rgb(60,60,60);
+
 }

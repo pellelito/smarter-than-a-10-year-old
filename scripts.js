@@ -57,6 +57,7 @@ if (num < 19) {
 	 document.getElementsByClassName('answer')[2].style.visibility = 'hidden';
 	 document.getElementsByClassName('answer')[3].style.visibility = 'hidden';
 	 document.getElementById("Question").innerHTML = 'Du är färdig och hade'  + correct + ' rätt';
+	 document.getElementById('start').innerHTML = "Starta igen";
 	 num = 0;
 	 val = "";
 	 correct = 0;
